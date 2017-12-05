@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "de.tiupe")
 public class CDPlayerConfig {
 
+    /* Dies ist ein Kommentar*/
     @Bean
     public MediaPlayer getMediaPlayer(CompactDisc aCD){
         return new CDPlayer(aCD);
